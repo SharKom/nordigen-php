@@ -1,16 +1,16 @@
 <?php
 
-namespace Nordigen\NordigenPHP\API;
+namespace sharkom\NordigenPHP\API;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Nordigen\NordigenPHP\Http\RequestHandlerTrait;
+use sharkom\NordigenPHP\Http\RequestHandlerTrait;
 
 class RequestHandler
 {
     use RequestHandlerTrait;
 
-    private string $accessToken;
+    private $accessToken;
 
     public function __construct(string $baseUri, string $secretId, string $secretKey, ?ClientInterface $client)
     {
