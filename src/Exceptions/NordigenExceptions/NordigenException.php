@@ -1,7 +1,7 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Exceptions\NordigenExceptions;
+namespace sharkom\NordigenPHP\Exceptions\NordigenExceptions;
 
-use Nordigen\NordigenPHP\Exceptions\BaseException;
+use sharkom\NordigenPHP\Exceptions\BaseException;
 
 class NordigenException extends BaseException {}
