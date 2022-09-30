@@ -1,8 +1,8 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Exceptions\InstitutionExceptions;
+namespace sharkom\NordigenPHP\Exceptions\InstitutionExceptions;
 
-use Nordigen\NordigenPHP\Exceptions\BaseException;
+use sharkom\NordigenPHP\Exceptions\BaseException;
 
 class InstitutionException extends BaseException
 {
