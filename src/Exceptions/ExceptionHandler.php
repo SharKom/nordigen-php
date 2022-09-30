@@ -1,9 +1,9 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Exceptions;
+namespace sharkom\NordigenPHP\Exceptions;
 
-use Nordigen\NordigenPHP\Exceptions\InstitutionExceptions;
-use Nordigen\NordigenPHP\Exceptions\NordigenExceptions\NordigenException;
+use sharkom\NordigenPHP\Exceptions\InstitutionExceptions;
+use sharkom\NordigenPHP\Exceptions\NordigenExceptions\NordigenException;
 use Psr\Http\Message\ResponseInterface;
 
 class ExceptionHandler
