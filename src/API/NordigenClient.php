@@ -1,23 +1,23 @@
 <?php
 
-namespace Nordigen\NordigenPHP\API;
+namespace sharkom\NordigenPHP\API;
 
-use Nordigen\NordigenPHP\API\Institution;
-use Nordigen\NordigenPHP\API\RequestHandler;
+use sharkom\NordigenPHP\API\Institution;
+use sharkom\NordigenPHP\API\RequestHandler;
 use GuzzleHttp\ClientInterface;
-use Nordigen\NordigenPHP\Enums\AccessScope;
+use sharkom\NordigenPHP\Enums\AccessScope;
 
 class NordigenClient
 {
     public const BASE_URL = 'https://ob.nordigen.com/api/v2/';
 
-    private RequestHandler $requestHandler;
-    public Institution $institution;
-    public EndUserAgreement $endUserAgreement;
-    public Requisition $requisition;
+    private $requestHandler;
+    public $institution;
+    public $endUserAgreement;
+    public $requisition;
 
-    private string $refreshToken;
-    private string $requisitionLink;
+    private $refreshToken;
+    private $requisitionLink;
 
     public function __construct(string $secretId, string $secretKey, ?ClientInterface $client = null)
     {
