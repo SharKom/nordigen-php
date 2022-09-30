@@ -1,16 +1,16 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Http;
+namespace sharkom\NordigenPHP\Http;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Nordigen\NordigenPHP\Exceptions\ExceptionHandler;
+use sharkom\NordigenPHP\Exceptions\ExceptionHandler;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\ClientInterface;
 
 trait RequestHandlerTrait
 {
-    protected ClientInterface $httpClient;
-    protected string $baseUri;
+    protected $httpClient;
+    protected $baseUri;
 
     public function get(string $uri, array $options = []): ResponseInterface
     {
