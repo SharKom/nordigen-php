@@ -1,5 +1,5 @@
 {
-    "name": "nordigen/nordigen-php",
+    "name": "sharkom/nordigen-php",
     "description": "Nordigen official API client for PHP",
     "type": "library",
     "authors": [
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nordigen\\NordigenPHP\\": "src/"
+            "sharkome\\NordigenPHP\\": "src/"
         }
     }
 }
