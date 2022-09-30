@@ -1,13 +1,13 @@
 <?php
 
-namespace Nordigen\NordigenPHP\API;
+namespace sharkom\NordigenPHP\API;
 
-use Nordigen\NordigenPHP\API\RequestHandler;
+use sharkom\NordigenPHP\API\RequestHandler;
 
 class Institution
 {
 
-    private RequestHandler $requestHandler;
+    private $requestHandler;
 
     public function __construct(RequestHandler $requestHandler) {
         $this->requestHandler = $requestHandler;
