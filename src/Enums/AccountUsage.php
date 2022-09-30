@@ -1,6 +1,6 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Enums;
+namespace sharkom\NordigenPHP\Enums;
 
 class AccountUsage
 {
