@@ -1,13 +1,13 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Exceptions;
+namespace sharkom\NordigenPHP\Exceptions;
 
 use Psr\Http\Message\ResponseInterface;
 use Throwable;
 
 class BaseException extends \Exception
 {
-    private ResponseInterface $response;
+    private $response;
 
     public function __construct(ResponseInterface $response, $message = '', $code = 0, Throwable $previous = null)
     {
