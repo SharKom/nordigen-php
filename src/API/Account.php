@@ -1,12 +1,12 @@
 <?php
 
-namespace Nordigen\NordigenPHP\API;
+namespace sharkom\NordigenPHP\API;
 
 use Nordigen\NordigenPHP\API\RequestHandler;
 
 class Account {
 
-    private RequestHandler $requestHandler;
+    private $requestHandler;
 
     public function __construct(RequestHandler $requestHandler, string $accountId) {
         $this->requestHandler = $requestHandler;
