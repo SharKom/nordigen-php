@@ -1,6 +1,6 @@
 <?php
 
-namespace Nordigen\NordigenPHP\Exceptions\InstitutionExceptions;
+namespace sharkom\NordigenPHP\Exceptions\InstitutionExceptions;
 
 /**
  * Institution service unavailable.
